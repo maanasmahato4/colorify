@@ -1,0 +1,32 @@
+{
+  "name": "library_project",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maanasmahato456/colorify"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "maanas mahato",
+  "homepage": "https://github.com/maanasmahato456/colorify#readme",
+  "bugs": {
+    "url": "https://github.com/maanasmahato456/colorify/issues"
+  },
+ 
+  "description": "",
+  "files": [
+    "lib/**/*"
+  ]
+}
